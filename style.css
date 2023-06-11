@@ -1,0 +1,251 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
+
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  max-width: 1440px;
+  height: AUTO;
+  background-color: rgb(245, 245, 216);
+  font-family: 'Rubik', sans-serif;
+  display: grid;
+  place-items: center;
+  vertical-align: middle;
+  
+}
+/* start  background left and right  */
+.purple-bg{
+  position: absolute;
+  width: 300px;
+  height: 90%;
+  background:linear-gradient(to bottom, hsl(293, 100%, 63% )10% , hsl(264, 100%, 61%));
+  border-radius: 0 0 300px 00px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.gray-bg{
+  position: absolute;
+  width: 300px;
+  height: 90%;
+  background: hsla(293, 61%, 81%, 0.3);
+  border-radius: 300px 0px 0 0;
+  z-index: -1;
+  bottom: -30%;
+  right: 0em;
+}
+/* end left an right background */
+
+/* start container for phone and paragrapgh */
+.container{
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+place-items: center;
+}
+.phone{
+  width: 25em;
+  height: fit-content;
+  border: 1em white solid;
+  border-radius: 3em;
+  /* position: absolute; */
+  left: 20%;
+  top: 10%;
+  background-color:rgb(247, 228, 205);
+  padding: 1%;
+  font-size: 11PX;
+}
+
+.top-div{
+  width: 100%;
+  background: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  
+
+}
+
+.camera{
+  width: 50%;
+  background-color: rgb(244, 217, 184);
+  height: 1.6em;
+  margin: auto;
+  border-bottom-left-radius: 1.3em;
+  border-bottom-right-radius: 1.3em;
+
+}
+.profile{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.4fr 0.8fr 3fr 0.1fr;
+  align-items: center;
+ color: white;
+ padding: 1em 0;
+ margin-bottom: 0.5em;
+}
+.img-profile{
+  width: 2.5em;
+  border-radius: 2em;
+  border: 1px solid white;
+}
+.name{
+  font-weight: 500;
+  font-size: 16px;
+}
+.status{
+  font-size: 12px;
+  color: hsl(276, 100%, 81%);
+}
+
+/* msg paragraph */
+
+.msg-left{
+  width: 70%;
+  background-color: hsl(276, 100%, 81%,0.2);
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border-radius: 1em;
+  border-bottom-left-radius: 0.3em;
+  color: hsl(276, 55%, 52%);
+}
+.response-msg{
+  display: grid;
+place-items: end;
+grid-gap: 1em;
+color: hsl(271, 15%, 43%);
+}
+.photo-dog{
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3%;
+}
+.dog{
+  width: 100%;
+  border-radius: 1em;
+}
+.msg-right{
+  width: 70%;
+ 
+  
+ 
+}
+.msg-right-p{
+  background-color: whitesmoke;
+  border-radius: 1em 1em 0.3em 1em;
+  margin-bottom: 0.5em;
+  padding: 1em;
+}
+.minute-30-price{
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.5fr;
+  margin-bottom: 0.5em;
+  background: linear-gradient(to left ,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  width: 70%;
+  padding: 1em 0 1em 1em;
+  border-radius: 1em 1em 1em 0.4em;
+  place-items: center;
+}
+.radio{
+  width: 1em;
+  height: 1em;
+  border: 1px rgb(238, 230, 230,0.4) solid;
+  border-radius: 60px;
+ 
+
+}
+.price{
+  font-weight: 500;
+  font-size: 15px;
+  color: bisque;
+}
+.minute-30{
+  color: bisque;
+  font-size: 10px;
+}
+.type-msg-send{
+  display: grid;
+  grid-template-columns: 2fr 0.3fr;
+  width: 100%;
+  margin-bottom: 1em;
+  background-color: white;
+  padding: 0.9em;
+  border-radius: 4em;
+  margin-top: 1.5em;
+}
+.typ-msg{
+  border: none;
+  outline: none;
+  font-size: 14px;
+  
+}
+.typ-msg::placeholder{
+  color: hsl(206, 6%, 79%) ;
+  font-size: 11px;
+}
+.send{
+  cursor: pointer;
+}
+
+/* right side  paragraph*/
+.right-side{
+
+}
+.title{
+  font-size: 38px;
+  font-weight: 500;
+  color: hsl(271, 36%, 24%) ;
+  margin-bottom: 1em;
+
+}
+.paragraph-right{
+  line-height: 1.7em;
+  font-size: 18px;
+  color:  hsl(270, 7%, 64%) ;
+}
+
+
+
+@media(max-width:700px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container{
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+    margin-top: 1em;
+  }
+  .title{
+    width: fit-content;
+    margin: auto;
+  }
+.paragraph-right{
+  text-align: center;
+  margin: 1em 2em;
+}
+.purple-bg{
+  height: 60%;
+}
+.gray-bg{
+  height: 60%;
+}
+
+}
