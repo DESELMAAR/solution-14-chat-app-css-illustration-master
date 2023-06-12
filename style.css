@@ -16,7 +16,7 @@
 body{
   max-width: 1440px;
   height: AUTO;
-  background-color: rgb(245, 245, 216);
+  background-color: hsl(270, 20%, 96%);
   font-family: 'Rubik', sans-serif;
   display: grid;
   place-items: center;
@@ -62,7 +62,7 @@ place-items: center;
   /* position: absolute; */
   left: 20%;
   top: 10%;
-  background-color:rgb(247, 228, 205);
+  background-color:hsl(270, 20%, 96%);
   padding: 1%;
   font-size: 11PX;
 }
@@ -82,7 +82,7 @@ place-items: center;
 
 .camera{
   width: 50%;
-  background-color: rgb(244, 217, 184);
+  background-color: hsl(270, 20%, 96%);
   height: 1.6em;
   margin: auto;
   border-bottom-left-radius: 1.3em;
