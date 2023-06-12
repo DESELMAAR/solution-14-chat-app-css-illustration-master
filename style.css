@@ -15,12 +15,12 @@
 
 body{
   max-width: 1440px;
-  height: AUTO;
+   min-height: 100VH;
   background-color: hsl(270, 20%, 96%);
   font-family: 'Rubik', sans-serif;
   display: grid;
   place-items: center;
-  vertical-align: middle;
+  margin-inline:auto;
   
 }
 /* start  background left and right  */
@@ -41,14 +41,13 @@ body{
   background: hsla(293, 61%, 81%, 0.3);
   border-radius: 300px 0px 0 0;
   z-index: -1;
-  bottom: -30%;
+  bottom: 0;
   right: 0em;
 }
 /* end left an right background */
 
 /* start container for phone and paragrapgh */
 .container{
-  margin-top: 5em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 80%;
@@ -59,7 +58,6 @@ place-items: center;
   height: fit-content;
   border: 1em white solid;
   border-radius: 3em;
-  /* position: absolute; */
   left: 20%;
   top: 10%;
   background-color:hsl(270, 20%, 96%);
@@ -70,8 +68,7 @@ place-items: center;
 .top-div{
   width: 100%;
   background: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr; */
+  
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
   border-bottom-left-radius: 0.5em;
@@ -226,12 +223,13 @@ color: hsl(271, 15%, 43%);
   body{
     display: grid;
     grid-template-columns: 1fr;
+    position: relative;
   }
   .container{
     width: 100%;
     grid-template-columns: 1fr;
     grid-gap: 3em;
-    margin-top: 1em;
+    margin: 1em 0;
   }
   .title{
     width: fit-content;
@@ -242,10 +240,12 @@ color: hsl(271, 15%, 43%);
   margin: 1em 2em;
 }
 .purple-bg{
-  height: 60%;
+  height: 50%;
 }
 .gray-bg{
-  height: 60%;
+  height: 50%;
+  bottom: 0%;
+  position: absolute;
 }
 
 }
