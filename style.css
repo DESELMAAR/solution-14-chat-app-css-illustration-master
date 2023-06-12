@@ -63,6 +63,7 @@ place-items: center;
   background-color:hsl(270, 20%, 96%);
   padding: 1%;
   font-size: 11PX;
+  box-shadow: 1em 1em 4em gray;
 }
 
 .top-div{
